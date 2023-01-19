@@ -1,0 +1,38 @@
+.box {
+body {
+  background-color: #EEE;
+}
+
+ul {
+  list-style-type: none;
+  margin: 50px;
+  padding: 0;
+}
+
+li {
+  position: absolute;
+}
+
+img {
+  background-color: #FFF;
+  box-shadow: 0 1px 5px #999;
+  padding: 10px;
+  width: 400px;
+}
+
+li:nth-child(1) {
+  transform: rotate(10deg);
+  -webkit-transform: rotate(10deg);
+  -moz-transform: rotate(10deg);
+  -o-transform: rotate(10deg);
+  -ms-transform: rotate(10deg);
+}
+
+li:nth-child(2) {
+  transform: rotate(-5deg);
+  -webkit-transform: rotate(-5deg);
+  -moz-transform: rotate(-5deg);
+  -o-transform: rotate(-5deg);
+  -ms-transform: rotate(-5deg);
+}
+
